@@ -23,9 +23,6 @@ export default function rootRoutes(props:any) {
       <Screen 
         name="home" 
         component={OrphanagesMapPage}
-        options={{
-          
-        }}
       />
       <Screen 
         name="details" 
