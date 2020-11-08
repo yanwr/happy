@@ -4,7 +4,7 @@ export default {
   convert(orphanageImages: OrphanageImages) {
     return {
       id: orphanageImages.id, 
-      url: `http://localhost:3333/orpanhages/images/${orphanageImages.path}`
+      url: `http://192.168.0.15:3333/orpanhages/images/${orphanageImages.path}`
     };
   },
 
